@@ -31,10 +31,132 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(110, 113, 119); /* Fallback background color */
+        }
 
+        .bookpage {
+            width: 400px;
+            height: 600px;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url('background.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
 
+        .insight {
+            color: rgb(1, 1, 1);
+        }
+
+        .hrstyle {
+            width: 100px;
+        }
+
+        .author {
+            display: inline;
+            position: relative;
+            color: rgb(14, 13, 13);
+            top: 190px;
+            font-family: Georgia;
+            font-size: medium;
+        }
+
+        .booktitle {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        }
+
+        .id {
+            width: 400px;
+            position: relative;
+            top: 180px;
+        }
+
+        .pub {
+            font-size: medium;
+            position: relative;
+            top: 155px;
+            left: 330px;
+        }
+
+        .ed {
+            color: rgb(8, 8, 8);
+            font-size: medium;
+            font-family: Verdana;
+            position: relative;
+            top: 230px;
+            right: 410px;
+        }
+
+        .subtitle {
+            font-family: Tahoma;
+            font-size: large;
+            position: relative;
+            top: 40px;
+        }
+
+        .mypic {
+            position: relative;
+            top: 135px;
+            left: 260px;
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+        }
+    </style>
+    <title>Book Cover Page</title>
+</head>
+<body>
+    <div class="bookpage">
+        <div class="insight">
+            SEC INSIGHT
+        </div>
+        <div class="hrstyle">
+            <hr style="color: yellow;">
+        </div>
+        <div class="booktitle">
+            <h1>The complete Web Design with HTML and CSS</h1>
+        </div>
+        <div class="subtitle">
+            To learn how the web page works and developmet of server page
+        </div>
+        <div class="mypic">
+            <img src="111.png" width="130" height="145" alt="">
+        </div>
+        <div class="id">
+            <hr style="color: orange;">
+        </div>
+        <div class="author">
+            <p><b>HARIHARAN P G (212222040050)
+            </b></p>
+        </div>
+            BE.CSE,
+            SEC
+        </div>
+        <div class="ed">
+            <b>Third Edition</b>
+        </div>
+    </div>
+</body>
+</html>
 ## OUTPUT:
 
+![Screenshot 2024-05-14 171405](https://github.com/PGHARIHARAN33/cover/assets/123052484/40ffa1d1-779d-436a-9425-8b4b43928788)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
